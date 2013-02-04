@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Todd Nichols - ePortfolio: Omaha, NE</title>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/ePortfolio.css" />
+  <!--[if lt IE 9]>
+  <link rel="stylesheet" href="ePortfolio_IE.css" media="all">
+  <![endif]-->
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+    $('.slideshow').cycle({
+        fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+    });
+  });
+  </script>
+</head>
+<body>
+  <div class="nav">
+    <div class="title">
+      Todd Nichols
+    </div>
+    <div class="subtitle">
+      ePortfolio
+    </div>
+    <div class="nav_image">
+      <img src="images/selfPoster_200.png" width="200" height="133" alt="Self Image" />
+    </div>
+    <ul id="accordion">
+      <li><a href="/">Home</a></li>
+      <li><a href="skills">Tech Skills</a></li>
+      <li><div><img src="images/three_lines.png" width="25" height="25" alt="Three Lines Image" /><a href="sites">Websites</a></div>
+        <ul>
+          <li><a href="http://kgb.omahaareaman.com/" target="_blank">KGB</a></li>
+          <li><a href="http://www.conceptelectricco.com/" target="_blank">Concept</a></li>
+          <li><a href="http://www.scratchtownbrewing.com/" target="_blank">Scratchtown</a></li>
+        </ul>
+      </li>
+      <li><div><img src="images/three_lines.png" width="25" height="25" alt="Three Lines Image" /><a href="apps">Ruby Apps</a></div>
+        <ul>
+          <li><a href="http://miles-km-miles.herokuapp.com" target="_blank">Miles/KM</a></li>
+          <li><a href="http://dtn-markets.herokuapp.com/" target="_blank">U.S. Markets</a></li>
+        </ul>
+      </li>
+      <li><a href="https://github.com/nivram80" target="_blank">GitHub</a></li>
+      <li><a href="graphics">Graphics</a></li>
+      <li><a href="http://www.exploringomaha.com/" target="_blank">Blog</a></li>
+      <li><a href="mailto:portfolio@omahaareaman.com">Contact</a></li>
+    </ul>
+  </div>
+  <div class="content">
+
+    <%= yield %>
+
+  </div>
+<div class="footer">
+  <div class="copy">
+    Copyright &copy;&nbsp;2013 Todd Nichols
+  </div>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="skills">Tech Skills</a></li>
+    <li><a href="sites">Websites</a></li>
+    <li><a href="apps">Ruby Apps</a></li>
+    <li><a href="https://github.com/nivram80" target="_blank">GitHub</a></li>
+    <li><a href="graphics">Graphics</a></li>
+    <li><a href="http://www.exploringomaha.com/" target="_blank">Blog</a></li>
+    <li><a href="mailto:portfolio@omahaareaman.com">Contact</a></li>
+  </ul>
+</div>
+<script type="text/javascript" src="/javascripts/eportfolio.js"></script>
+</body>
+</html>

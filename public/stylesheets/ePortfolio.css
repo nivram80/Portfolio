@@ -1,0 +1,199 @@
+@font-face { font-family: cursive_font;
+							src: url(/images/ThrowMyHandsUpintheAir.ttf);
+}
+body { background-color: #bbb;
+				font-family: arial, sans-serif;
+				color: #333;
+				font-weight: bold;
+	}
+img { max-width: 100%;
+}
+@media all and (max-width: 480px) {
+	.nav { width: 36.458333333%;
+					margin-left: 3.125%;
+					background-color: #bbb;
+					float: left;
+	}
+	.nav li { list-style-type: none;
+	}
+	.content { height: 90%;
+	}
+	.footer { width: 90%;
+						margin-left: auto;
+						margin-right: auto;
+						background-color: #000;
+						color: #eee;
+						clear: both;
+	}
+	.footer li { list-style-type: none;
+
+	}
+}
+@media all and (min-width: 481px) {
+
+	/* NAVIGATION MENU BAR */
+	.nav { width: 18%;
+					margin-left: 3%;
+					background-color: #eee;
+					float: left;
+					border-bottom-right-radius: .5em;
+					border-bottom-left-radius: .5em;
+					box-shadow: 1px 2px 4px 1px #272727;
+					z-index: 20;
+					position: fixed;
+					top: 0;
+	}
+	.nav_image { text-align: center;
+								padding-bottom: 5%;
+								border-bottom: 1px dotted #333;
+								margin-left: 10%;
+								margin-right: 10%;
+	}
+	.nav li { list-style-type: none;
+						padding-bottom: 3%;
+						padding-left: 10%
+	}
+	.nav a:link { color: #888;
+								text-decoration: none;
+								font-size: 1.35em;
+								padding-bottom: 10%;
+	}
+	.nav a:visited { color: #888;
+										text-decoration: none;
+										font-size: 1.35em;
+										padding-bottom: 10%;
+	}
+	.nav a:hover { color: #000;
+									text-decoration: none;
+									font-size: 1.35em;
+									padding-bottom: 10%;
+	}
+	.nav a:active { color: #888;
+									text-decoration: none;
+									font-size: 1.35em;
+									padding-bottom: 10%;
+	}
+	#accordion div { cursor: pointer;
+	}
+	#accordion div img { float: right;
+												margin-right: 10%;
+	}
+	#accordion ul { display: none;
+									margin-top: 5px;
+}
+	#accordion ul li { cursor: auto;
+											margin-left: -20%;
+	}
+	#accordion ul li a { font-size: 1.25em;
+											  color: #888;
+	}
+	#accordion ul li a:hover { font-size: 1.25em;
+											  			color: #000;
+	}
+	.title { margin-top: 5%;
+					 font-size: 1.75em;
+					 text-transform: uppercase;
+					 text-align: center;
+	}
+	.subtitle { text-align: center;
+							font-size: 1.5em;
+							font-family: cursive_font;
+							font-weight: bold;
+							padding-bottom: 5%;
+	}
+
+	/* MAIN CONTENT AREA */
+	.content { z-index: 5;
+							padding-bottom: 5%;
+							margin-top: 1%;
+							margin-left: 27%;
+	}
+	.content h1 { font-family: arial;
+								font-size: 2.5em;
+								text-shadow: 1px 1px #e1db3a;
+								text-transform: uppercase;
+								font-weight: bold;
+								color: #272727;
+	}
+	.content p { margin-top: -2%;
+	}
+	.column_one { float: left;
+								margin-left: 2%;
+								width: 30%;
+								margin-top: -3%;
+	}
+	.column_two { margin-left: 45%;
+								width: 30%;
+								margin-top: -3%;
+	}
+	.images img { margin-right: 2%;
+								margin-bottom: 10px;
+	}
+
+	/* SKILLS TABLES */
+	.skills { width: 100%;
+	}
+	.skills thead th { text-align: left;
+										 font-size: 1.5em;
+										 padding-top: 10%;
+	}
+	.skills tbody { padding-bottom: 7%;
+	}
+	.skills img { text-align: right;
+	}
+	.skills tr td { padding-bottom: 3%;
+
+	}
+
+	/* SITE EXAMPLES */
+	.siteSamples table { margin-left: 2%;
+												font-weight: bold;
+												font-size: 14px;
+	}
+	.siteSamples td { text-align: center;
+										padding-right: 35px;
+	}
+	.siteSamples img { border: 1px solid #000;
+											margin-top: 1%;
+											box-shadow: 5px 5px 5px #888;
+											opacity: 1.0;
+	}
+	.siteSamples img:hover { border: 1px solid #000;
+														margin-top: 1%;
+														box-shadow: 5px 5px 5px #888;
+														opacity: 0.4;
+	}
+
+	/* FOOTER AREA */
+	.footer { width: 100%;
+						height: 5%;
+						background-color: #333;
+						color: #eee;
+						position: fixed;
+						bottom: 0;
+						left: 0;
+						z-index: 10;
+	}
+	.footer li { list-style-type: none;
+								display: inline-block;
+								margin-right: 2%;
+	}
+	.footer a:link { color: #fff;
+										text-decoration: none;
+	}
+	.footer a:visited { color: #fff;
+											text-decoration: none;
+	}
+	.footer a:hover { color: #e1db3a;
+										text-decoration: none;
+	}
+	.footer a:active { color: #fff;
+											text-decoration: none;
+	}
+	.copy { font-size: .75em;
+					color: #fff;
+					float: right;
+					margin-right: 2%;
+					margin-top: 1.5%;
+	}
+}
