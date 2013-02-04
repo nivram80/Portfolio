@@ -108,7 +108,7 @@ img { max-width: 100%;
 .images img { margin-right: 2%;
               margin-bottom: 10px;
 }
-.slideshow a { border: 0px;
+.slideshow img { border: 0px;
 }
 
 /* SKILLS TABLES */
