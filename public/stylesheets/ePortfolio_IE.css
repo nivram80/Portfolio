@@ -1,3 +1,6 @@
+img {
+
+}
 .nav { width: 18%;
         margin-left: 3%;
         background-color: #eee;
@@ -120,7 +123,7 @@
                       font-size: 14px;
 }
 .siteSamples td { text-align: center;
-                  padding-right: 35px;
+                  padding-right: 25px;
 }
 .siteSamples img { border: 1px solid #000;
                     margin-top: 1%;
