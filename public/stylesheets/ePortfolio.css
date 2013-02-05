@@ -6,8 +6,6 @@ body { background-color: #bbb;
 				color: #333;
 				font-weight: bold;
 	}
-img { max-width: 100%;
-}
 @media all and (max-width: 480px) {
 	.nav { width: 36.458333333%;
 					margin-left: 3.125%;
@@ -30,6 +28,9 @@ img { max-width: 100%;
 	}
 }
 @media all and (min-width: 481px) {
+
+	img { max-width: 100%;
+	}
 
 	/* NAVIGATION MENU BAR */
 	.nav { width: 18%;
