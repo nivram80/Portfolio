@@ -1,5 +1,9 @@
-img {
-
+body { background-color: #bbb;
+        font-family: arial, sans-serif;
+        color: #333;
+        font-weight: bold;
+}
+img { max-width: none;
 }
 .nav { width: 18%;
         margin-left: 3%;
@@ -123,7 +127,7 @@ img {
                       font-size: 14px;
 }
 .siteSamples td { text-align: center;
-                  padding-right: 25px;
+                  padding-right: 15px;
 }
 .siteSamples img { border: 1px solid #000;
                     margin-top: 1%;
