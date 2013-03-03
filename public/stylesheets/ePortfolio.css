@@ -177,9 +177,9 @@ body { background-color: #bbb;
 						left: 0;
 						z-index: 10;
 	}
-	.footer li { list-style-type: none;
-								display: inline-block;
-								margin-right: 2%;
+	.footer img { margin-right: .5%;
+								margin-left: 2%;
+								margin-top: .5%;
 	}
 	.footer a:link { color: #fff;
 										text-decoration: none;
