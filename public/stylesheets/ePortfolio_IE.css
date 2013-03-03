@@ -132,12 +132,12 @@ img { max-width: none;
 .siteSamples img { border: 1px solid #000;
                     margin-top: 1%;
                     box-shadow: 5px 5px 5px #888;
-                    filter: alpha(opacity=40); /* For IE8 and earlier */
+                    filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 .siteSamples img:hover { border: 1px solid #000;
                           margin-top: 1%;
                           box-shadow: 5px 5px 5px #888;
-                          filter: alpha(opacity=100); /* For IE8 and earlier */
+                          filter: alpha(opacity=40); /* For IE8 and earlier */
 }
 
 /* FOOTER AREA */
@@ -150,9 +150,10 @@ img { max-width: none;
           left: 0;
           z-index: 10;
 }
-.footer li { list-style-type: none;
-              display: inline-block;
-              margin-right: 2%;
+.footer img { margin-right: .5%;
+                margin-left: 2%;
+                margin-top: .5%;
+                border: 0px;
 }
 .footer a:link { color: #fff;
                   text-decoration: none;
@@ -167,8 +168,8 @@ img { max-width: none;
                     text-decoration: none;
 }
 .copy { font-size: .75em;
-        color: #fff;
-        float: right;
-        margin-right: 2%;
-        margin-top: 1.5%;
+          color: #fff;
+          float: right;
+          margin-right: 2%;
+          margin-top: 1.2%;
 }
