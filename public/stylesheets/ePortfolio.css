@@ -180,6 +180,7 @@ body { background-color: #bbb;
 	.footer img { margin-right: .5%;
 								margin-left: 2%;
 								margin-top: .5%;
+								border: 0px;
 	}
 	.footer a:link { color: #fff;
 										text-decoration: none;
