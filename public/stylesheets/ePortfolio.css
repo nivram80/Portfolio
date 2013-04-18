@@ -33,7 +33,7 @@ body { background-color: #bbb;
 	}
 
 	/* NAVIGATION MENU BAR */
-	.nav { width: 18%;
+	.nav { width: 250px;
 					margin-left: 3%;
 					background-color: #eee;
 					float: left;
