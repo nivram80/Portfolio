@@ -29,8 +29,8 @@ body { background-color: #bbb;
 }
 @media all and (min-width: 481px) {
 
-	img { max-width: 100%;
-	}
+	/*img { max-width: 100%;
+	}*/
 
 	/* NAVIGATION MENU BAR */
 	.nav { width: 250px;
